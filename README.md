@@ -129,3 +129,7 @@ python evaluate.py
 
 streamlit run app.py
 ```
+
+Author
+Syed Abdullah Hasan
+Aspiring AI Engineer | Karachi, Pakistan
