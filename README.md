@@ -118,11 +118,24 @@ Images are resized and normalized to match ResNet18’s expected input.
 ```bash
 git clone https://github.com/yourusername/rice-disease-detector.git
 cd rice-disease-detector
+```
 
-## 2. Install Dependencies
+### 2. Make Virtual Envoirement 
+```bash
+# For Windows
+python -m venv venv
+venv\Scripts\activate
 
+# For macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+### 3. Install Dependencies
+``` bash
 pip install -r requirements.txt
-
+```
+### 4. Start Application
+``` bash
 streamlit run app.py
 ```
 
