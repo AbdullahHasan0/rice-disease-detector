@@ -103,11 +103,11 @@ Images are resized and normalized to match ResNet18’s expected input.
 - [x] Train/test/validation split (80/10/10)  
 - [x] ResNet18 fine-tuning  
 - [x] Evaluation and metrics  
-- [x] Visualize predictions with color-coded labels  
+- [x] Visualize predictions with color-coded labels
+- [x] Build Streamlit interface  
+- [x] Allow image upload for real-time predictions   
 
-### 🔜 Next Steps
-- [ ] Build Streamlit interface  
-- [ ] Allow image upload for real-time predictions  
+### 🔜 Next Steps 
 - [ ] Display disease description and prevention tips  
 
 ---
@@ -123,13 +123,9 @@ cd rice-disease-detector
 
 pip install -r requirements.txt
 
-python train.py
-
-python evaluate.py
-
 streamlit run app.py
 ```
 
-👨‍💻 Author  
-Syed Abdullah Hasan  
-Aspiring AI Engineer | Karachi, Pakistan
+## 👨‍💻 Author  
+#### Syed Abdullah Hasan  
+#### Aspiring AI Engineer | Karachi, Pakistan
